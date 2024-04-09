@@ -1,7 +1,4 @@
-FastAPI
-HTMLResponse
-StaticFiles
-Jinja2Templates
+fastapi
 requests
 python-dotenv
 uvicorn
