@@ -25,3 +25,11 @@ docker run -p 3000:3000 -e MYVAR=XXX --name ocr-correction-laurence ocr-correcti
 # pour supprimer le conteneur du docker :
 docker rm ocr-correction-laurence
 ### aller sur le site, F5, puis revenir sous VSc pour voir la réponse
+
+# Mettre docker image sous Azure : 
+docker run -it ocr-correction-laurence
+docker login conteneurlb.azurecr.io 
+docker tag ocr-correction-laurence conteneurlb.azurecr.io/ocr-correction-laurence
+docker push conteneurlb.azurecr.io/ocr-correction-laurence
+# pour récupérer l image d azure : 
+docker pull conteneurlb.azurecr.io/ocr-correction-laurence 
