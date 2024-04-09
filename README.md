@@ -19,5 +19,8 @@ Env/Scripts/activate
  http://localhost:3000/
 
  # Docker :
- docker build -t ocr-correction-laurence .
+docker build -t ocr-correction-laurence .
+docker run -p 3000:3000 -e MYVAR=XXX --name ocr-correction-laurence ocr-correction-laurence
 
+# pour supprimer le conteneur du docker :
+docker rm ocr-correction-laurence
