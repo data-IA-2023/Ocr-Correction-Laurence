@@ -12,13 +12,3 @@ pip install -r requirements.txt
 
 # dans le fichier du projet :
 Env/Scripts/activate
-
-# dans l'environnement :
- uvicorn controller:app --port 3000 --host 0.0.0.0 --reload
- # Page internet :
- http://localhost:3000/
-
- # Docker :
- docker build -t ocr-correction-laurence .
-
- 
