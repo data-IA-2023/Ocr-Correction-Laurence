@@ -11,3 +11,4 @@ env_var = os. environ
 
 print("------- Variable de l'environnement de Laurence ---------")
 pprint.pprint(dict(env_var), width=1)
+
