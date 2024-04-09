@@ -1,4 +1,10 @@
-import FastAPI, Request
-import HTMLResponse
-import StaticFiles
-import Jinja2Templates
+FastAPI
+HTMLResponse
+StaticFiles
+Jinja2Templates
+requests
+python-dotenv
+uvicorn
+jinja2
+python-multipart
+sqlalchemy
