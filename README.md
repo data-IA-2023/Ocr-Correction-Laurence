@@ -9,4 +9,5 @@ DISCORD_OCR : Lien vers discord
 
 
 pip install -r requirements.txt
+
 Env/Scripts/activate
