@@ -24,4 +24,4 @@ docker run -p 3000:3000 -e MYVAR=XXX --name ocr-correction-laurence ocr-correcti
 
 # pour supprimer le conteneur du docker :
 docker rm ocr-correction-laurence
-# aller sur le site, F5, puis revenir sous VSc pour voir la réponse
+### aller sur le site, F5, puis revenir sous VSc pour voir la réponse
