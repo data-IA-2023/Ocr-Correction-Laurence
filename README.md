@@ -17,3 +17,8 @@ Env/Scripts/activate
  uvicorn controller:app --port 3000 --host 0.0.0.0 --reload
  # Page internet :
  http://localhost:3000/
+
+ # Docker :
+ docker build -t ocr-correction-laurence .
+
+ 
